@@ -1,5 +1,7 @@
-﻿[Serializable]
+﻿//Recomendado utilizar para bases extensas
+[Serializable]
 [QnAMaker("Subscriiption Key", "Knowledge ID", "Frase padrão quando não satisfazer ao indice mínimo de confiabilidade de resposta",0.5,1)]
 public class QnADialogWithActiveLeearning : QnAMakerDialog {
 
 }
+ 
